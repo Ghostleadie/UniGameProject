@@ -1,0 +1,4 @@
+To use this program youll need to go to risk game property's c/c++ tab then in additional include directories and put this
+(where ever you extracted this)\P14131650 - Pamela Hardaker\src\Labs\TransformsAndDatafiles\SFML-2.4.2\include
+You will also need to go to the linker tab and in the additional library directories and put this
+(where ever you extracted this)\P14131650 - Pamela Hardaker\src\Labs\TransformsAndDatafiles\SFML-2.4.2\lib

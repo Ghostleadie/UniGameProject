@@ -1,0 +1,8 @@
+{
+  "LevelList": [
+    { "name": "menu"},
+    { "name": "firstLevel" },
+    { "name": "secondLevel" },
+    { "name": "thirdLevel" }
+  ]
+}

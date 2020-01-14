@@ -1,0 +1,9 @@
+{
+  "GameObjects": [
+    {
+      "name": "pPlayer",
+      "object": "ModelPlayer",
+      "position": [ 0, 0, -15 ]
+    }
+  ]
+}

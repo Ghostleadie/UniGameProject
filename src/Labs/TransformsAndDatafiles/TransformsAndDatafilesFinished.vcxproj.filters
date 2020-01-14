@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{3a91bd5e-2ce9-4dd1-864d-83a86a5cca9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Json">
+      <UniqueIdentifier>{eeac1f1e-b3b0-4392-90f3-92176c92acba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Objects">
+      <UniqueIdentifier>{8d5fd347-c149-4925-b89f-0529f7cb20d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{0c645d35-b535-4417-9ecc-cce968b923be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{72a333d6-b6bf-46ac-9de9-953fd4c9954b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{85604111-aa6f-473d-9b0e-b05a4240fb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGUI">
+      <UniqueIdentifier>{158d5c03-8350-4ed8-973a-c900e7b82fac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Json">
+      <UniqueIdentifier>{ac7d3608-5b3f-4430-b50a-e5c7404c5fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{45c17d72-d306-40d3-8b65-a318fb32165a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{22462e71-afc0-4772-bf07-6f65b5488460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{67b0c3d8-4f01-4d17-90a9-68eedccd7176}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\include\json\json\jsoncpp.cpp">
+      <Filter>Source Files\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Serializer.cpp">
+      <Filter>Source Files\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerObject.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.c">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GLAD\glad.c">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFW_EngineCore.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw_gl3.cpp">
+      <Filter>Source Files\ImGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\json\json\json\json.h">
+      <Filter>Header Files\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\json\json\json\json-forwards.h">
+      <Filter>Header Files\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IEngineCore.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFW_EngineCore.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Planet.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializer.h">
+      <Filter>Header Files\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorCombo.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
